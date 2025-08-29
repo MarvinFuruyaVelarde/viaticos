@@ -4,6 +4,7 @@ namespace Database\Seeders;
 
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 
+use App\Models\Feriado;
 use App\Models\UsuarioRegional;
 use Illuminate\Database\Seeder;
 
@@ -22,5 +23,10 @@ class DatabaseSeeder extends Seeder
         $this->call(RegionalTableSeeder::class);
         $this->call(UsuarioRegionalTableSeeder::class);
         $this->call(AeropuertoTableSeeder::class);
+        $this->call(ViaTableSeeder::class);
+        $this->call(CiudadTableSeeder::class);
+        $this->call(LugarTableSeeder::class);
+        $this->call(TipoViaticoTableSeeder::class);
+        $this->call(FeriadoTableSeeder::class);
     }
 }

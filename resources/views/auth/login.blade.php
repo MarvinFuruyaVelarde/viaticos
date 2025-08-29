@@ -40,7 +40,7 @@
                 <div class="card-body">
                     <div class="pt-4 pb-2">
                         <h5 class="card-title text-center pb-0 fs-4">Bienvenid@!!!</h5>
-                        <p class="text-center small">Debe Ingresar el correo y contraseña para acceder al sistema</p>
+                        <p class="text-center small">Debe Ingresar el correo y contraseña para acceder al Sistema de Viaticos</p>
                     </div>
 
                     <form class="row g-3 needs-validation"  method="POST" action="{{ route('login') }}">

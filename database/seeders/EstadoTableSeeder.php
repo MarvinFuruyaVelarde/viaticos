@@ -21,5 +21,6 @@ class EstadoTableSeeder extends Seeder
         Estado::create(['descripcion'=>'MODIFICADO']);
         Estado::create(['descripcion'=>'ANULADO']);
         Estado::create(['descripcion'=>'GENERADO']);
+        Estado::create(['descripcion'=>'FINALIZADO']);
     }
 }
